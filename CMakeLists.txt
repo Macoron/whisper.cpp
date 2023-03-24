@@ -84,7 +84,7 @@ endif()
 
 # dependencies
 
-find_package(Threads REQUIRED)
+#find_package(Threads REQUIRED)
 
 # on APPLE - include Accelerate framework
 if (APPLE AND NOT WHISPER_NO_ACCELERATE)
